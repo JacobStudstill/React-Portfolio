@@ -1,10 +1,32 @@
-
-.about img {
-  max-width: 13%;
-  max-height: 13%;
-  border:solid 3px;
-  margin-top: 1%;
+:root {
+  --fontcolor: #3b87b3;
+  --background: #1f3042;
+  --third: #3de3dd;
+  --flexbox: #636161;
 }
+
 .about p {
   margin-top: 1rem;
+  line-height: 1.7;
+  font-weight:480
+}
+
+.left {
+  float:left;
+  margin:0 20px 20px 0;
+  max-width: 17%;
+  max-height: 17%;
+  border:var(--flexbox) solid 3px;
+  min-width:120px;
+  min-width:120px;
+}
+
+.middle{
+  text-align: center;
+}
+
+.experience {
+  align-items: left;
+  margin-top:2em;
+  line-height: 1.7;
 }
