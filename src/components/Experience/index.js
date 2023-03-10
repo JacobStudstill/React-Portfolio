@@ -5,21 +5,49 @@ import Container from '@mui/material/Container'
 
 function Experience() {
     return (
-        <div className="App">
-            <Container maxWidth="sm">
-            <section className='page-section'>
-                <div className='experience'>
-                    <h2 className='middle'>Experience</h2>
-                    <p>
-                        Hello, my name is Jacob Studstill. I am an inspiring Full-Stack Developer enrolled in the University of Central Florida Full-Stack Development Coding Bootcamp which will come to an end in March of 2023. I have had my hand in applications which include E-Commerce websites, social media APIs,
-                        password generators, and employee tracking systems. Following the bootcamp I will be searching for full-stack, front-end, and back-end developement jobs. The contact portion of the page will link to my GitHub to see the current projects I am working on and
-                        reach out if you have any questions.
-                    </p>
+        <>
+            <div className='all'>
+                <div className="page-section" id="work">
+                <h2>hello</h2>
+                    <div className="projects">
 
+                        <a href="https://domspadafora.github.io/Alt-F404-Travel-Assistant/index.html" class="flex-item work-1">
+                            <div>
+                                <h3>Travel Assistant</h3>
+                                <span>Projects & Contact</span>
+                            </div>
+                        </a>
+                        <a href="https://jacobstudstill.github.io/Challenge-Project-1/" class="flex-item work-2">
+                            <div>
+                                <h3>SEO</h3>
+                                <span>Semantic Website</span>
+                            </div>
+                        </a>
+                        <a href="https://garagesalejunkies.herokuapp.com/" class="flex-item work-3">
+                            <div>
+                                <h3>Garage Sale Junkies</h3>
+                                <span>Full-Stack with database</span>
+                            </div>
+                        </a>
+                        <a href="https://jacobstudstill.github.io/prework-study-guide/" class="flex-item work-4">
+                            <div>
+                                <h3>Portfolio</h3>
+                                <span>Projects & Contact</span>
+                            </div>
+                        </a>
+                        <a href="https://jacobstudstill.github.io/Password-Generator/" class="flex-item work-5">
+                            <div>
+                                <h3>Password Generator</h3>
+                                <span>Backend JavaScript</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </section>
-        </Container>
-        </div>
-    );
+                <div className='skills'>
+                    <h2>plz work plz work plz work plz work plz work plz work plz work plz workplz work plz work plz work plz work</h2>
+                </div>
+            </div>
+        </>
+    )
 }
 export default Experience;

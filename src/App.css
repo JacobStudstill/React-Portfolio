@@ -13,7 +13,7 @@
 
 .left {
   float:left;
-  margin:0 20px 20px 0;
+  margin:0 2% 2% 0;
   max-width: 17%;
   max-height: 17%;
   border:var(--flexbox) solid 3px;
@@ -25,8 +25,73 @@
   text-align: center;
 }
 
-.experience {
-  align-items: left;
-  margin-top:2em;
-  line-height: 1.7;
+
+.page-section {
+  margin: 1% 0 0 1% ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-color: black;
+  border-radius: 1px;
+  max-width: 49vw;
+  width:50%
 }
+
+.flex-item {
+  border: 5px solid var(--fontcolor);
+  background-color: var(--flexbox);
+  color:var(--fontcolor);
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: 46.9%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0  0;
+  margin: 0.4em;
+  text-decoration: none;
+  background-size: 150%;
+}
+
+.flex-item div {
+  color:black;
+  border:black solid 3px;
+  background-color: #3a69b5;
+  margin-left: 0%;
+  min-width: 3vw;
+  min-height:3vh;
+
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills{
+  display: flex;
+  width:50%
+
+}
+.all{
+  display:inline-flex;
+  align-items:flex-start ;
+  justify-content: left;
+  width:100%
+}
+
+.work-1 {
+  background-image: url(./assets/password.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+  opacity: 60%;
+}
+
+.work-1:hover {
+  opacity: 100%;
+}
+

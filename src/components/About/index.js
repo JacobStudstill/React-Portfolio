@@ -5,8 +5,8 @@ import imageName from "../../assets/pfp.jpg"
 
 function Body() {
     return (
-        <Container maxWidth="lg">
-            <section className='page-section'>
+        <Container fixed>
+            <section>
                 <div className='about'>
                     <img className="left" src={imageName} />
                     <h2 className='middle'>About Me</h2>
